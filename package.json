@@ -1,0 +1,12 @@
+{
+  "name": "domino-safado",
+  "version": "1.0.0",
+  "description": "",
+  "main": "game.js",
+  "scripts": {
+    "start": "node src/game"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
