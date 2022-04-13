@@ -4,9 +4,13 @@
   "description": "",
   "main": "game.js",
   "scripts": {
-    "start": "node src/game"
+    "start": "node src/game",
+    "test": "jest"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^27.5.1"
+  }
 }
