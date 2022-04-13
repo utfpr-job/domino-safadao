@@ -1,27 +1,26 @@
 const isSameArray = (arr1, arr2) => JSON.stringify(arr1) === JSON.stringify(arr2)
 
-const mountGraph = (playerPieces = [[0, 0]]) => (piecesObjective = [[0, 0]]) => {
+const mountGraph = (playerPieces = [[0, 0]]) => (...valuesObjective) => {
 
-    const mountNodeTree = (prevPieces = [0,0]) => (restPieces = [[0, 0]]) => {
-        const [leftSide, rigthSide] = prevPieces
-
-        const playablePieces = restPieces.filter((piece) => piece.includes(leftSide) || piece.includes(rigthSide))
+    const mountNodeTree = (prevPieceSide) => (restPieces = [[0, 0]]) => {
+        const playablePieces = restPieces.filter((piece) => piece.includes(prevPieceSide))
 
         if (!playablePieces.length) return []
 
         return playablePieces.map((piece) => {
             const anotherPieces = restPieces.filter((p) => !isSameArray(piece, p))
+            const notPlayableSide = piece[0] === prevPieceSide ? piece[1] : piece[0]
 
             return {
                 piece,
-                nextNode: mountNodeTree(piece)(anotherPieces)
+                nextNode: mountNodeTree(notPlayableSide)(anotherPieces)
             }
         })
     }
 
-    return piecesObjective.map((actualPiece) => {
+    return valuesObjective.map((actualPiece) => {
         return {
-            piece: actualPiece,
+            piece: [-1, actualPiece],
             nextNode: mountNodeTree(actualPiece)(playerPieces)
         }
     })
