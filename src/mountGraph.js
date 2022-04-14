@@ -8,7 +8,7 @@ const mountGraph = (searchFn = null) => (player1Pieces = [[-1, -1]]) => (player2
     if (!playablePieces.length) return []
 
     if (searchFn) {
-      const bestPiece = searchFn({ prevPieceSide, actualPieces, nextPieces })
+      const bestPiece = searchFn({ prevPieceSide, actualPieces, nextPieces, playablePieces })
 
       const anotherPieces = actualPieces.filter((p) => !isSameArray(bestPiece, p))
       const notPlayableSide = bestPiece[0] === prevPieceSide ? bestPiece[1] : bestPiece[0]
