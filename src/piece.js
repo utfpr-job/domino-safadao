@@ -14,9 +14,15 @@ const piece = [
   0
 ]
 
-const combinations = piece.map((peca) => piece.map((p) => [peca, p])).flat()
+const onlyUnique = (value, index, self) => {
+  const idx = self.findIndex(([left, rigth]) => {
+    const [l, r] = value.sort((a, b) => a > b ? -1 : 1)
+    return left === l && rigth === r
+  })
+  return idx === index;
+}
 
-console.log(combinations)
+const combinations = piece.map((peca) => piece.map((p) => [peca, p])).flat().filter(onlyUnique)
 
 module.exports = {
   piece,
