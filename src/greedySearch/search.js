@@ -1,41 +1,32 @@
 const { getRandomNumberIntoSize } = require("../helpers")
 
-const searchWithHeuristic = (pieceObjective = [0, 0]) => (playerPieces = [[0, 0]]) => (maxIterators) => {
+const search = ({ actualPieces = [[0, 0]] }) => {
   let peaks = []
-  const piecesToFind = playerPieces
-    .filter((playerPiece) => playerPiece.includes(pieceObjective[0]) || playerPiece.includes(pieceObjective[1]))
-    .map((playerPiece) => ({
-      sum: playerPiece[0] + playerPiece[1],
-      pos: playerPieces.findIndex(([part1, part2]) => playerPiece[0] === part1 && playerPiece[1] === part2)
-    }))
+  const maxIterators = 10
 
-  console.log({ piecesToFind })
+  const piecePrice = (p) => p?.[0] + p?.[1]
 
-  if (!piecesToFind.length) {
-    console.log('jogador sem peças para jogar')
-    return []
-  }
+  const fn = (position) => {
+    const actualPiecePrice = piecePrice(actualPieces[position])
 
-  const search = (position) => {
-    if (piecesToFind?.[position + 1]?.sum > piecesToFind[position].sum) {
-      return search(++position)
+    if (piecePrice(actualPieces?.[position + 1]) > actualPiecePrice) {
+      return fn(++position)
     }
 
-    if (piecesToFind?.[position - 1]?.sum > piecesToFind[position].sum) {
-      return search(--position)
+    if (piecePrice(actualPieces?.[position - 1]) > actualPiecePrice) {
+      return fn(--position)
     }
 
-    return playerPieces[piecesToFind[position].pos]
+    return actualPieces[position]
   }
 
   for (let i = 0; i < maxIterators; i++) {
-    peaks.push(search(getRandomNumberIntoSize(piecesToFind.length)))
+    peaks.push(fn(getRandomNumberIntoSize(actualPieces.length)))
   }
 
-  console.log(peaks)
-  return peaks.sort((a, b) => (a[0] + a[1]) > (b[0] + b[1]) ? -1 : 1)[0]
+  return peaks.sort().reverse()[0]
 }
 
 module.exports = {
-  searchWithHeuristic
+  search
 }
