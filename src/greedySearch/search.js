@@ -1,27 +1,26 @@
 const { getRandomNumberIntoSize } = require("../helpers")
 
-const search = ({ actualPieces = [[0, 0]] }) => {
+const search = ({ playablePieces = [[0, 0]] }) => {
   let peaks = []
-  const maxIterators = 10
 
   const piecePrice = (p) => p?.[0] + p?.[1]
 
   const fn = (position) => {
-    const actualPiecePrice = piecePrice(actualPieces[position])
+    const actualPiecePrice = piecePrice(playablePieces[position])
 
-    if (piecePrice(actualPieces?.[position + 1]) > actualPiecePrice) {
+    if (piecePrice(playablePieces?.[position + 1]) > actualPiecePrice) {
       return fn(++position)
     }
 
-    if (piecePrice(actualPieces?.[position - 1]) > actualPiecePrice) {
+    if (piecePrice(playablePieces?.[position - 1]) > actualPiecePrice) {
       return fn(--position)
     }
 
-    return actualPieces[position]
+    return playablePieces[position]
   }
 
-  for (let i = 0; i < maxIterators; i++) {
-    peaks.push(fn(getRandomNumberIntoSize(actualPieces.length)))
+  for (let i = 0; i < playablePieces.length; i++) {
+    peaks.push(fn(i))
   }
 
   return peaks.sort().reverse()[0]
