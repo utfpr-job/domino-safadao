@@ -1,4 +1,4 @@
-const { mountGraph } = require('./mountGraph')
+const { mountGraph } = require('../mountGraph')
 const { greedySearch }= require('./greedyResult')
 
 describe('greedySearch', () => {
