@@ -1,26 +1,22 @@
-// valida se precisa voltar para trás
-const validateStates = (_states) => true
+const { spawn } = require('child_process');
 
-const search = () => {
-  let states = []
+const search = (...params) => {
+  return new Promise((resolve, reject) => {
+    const python = spawn('python', [__dirname + '/search.py', ...params ])
 
-  return ({ prevPieceSide, actualPieces, nextPieces, playablePieces }) => {
-    // regra maluca para fazer a decisão
-    const bestPiece = playablePieces[0]
+    let response = ''
 
-    states.push({
-      prevPieceSide,
-      actualPieces,
-      nextPieces,
-      playablePieces
+    python.stdout.on('data', (data) => {
+      response = data.toString()
     })
 
-    if (!validateStates(states)) {
-      // aqui poderia usar o state para recriar a árvore a partir desse ponto, mas não sei fazer ainda kkk
-    }
-
-    return bestPiece
-  }
+    python.on('close', (code) => {
+      if (code === 0) {
+        return resolve(response)
+      }
+      return reject('error code: ' + code)
+    })
+  })
 }
 
 module.exports = {
