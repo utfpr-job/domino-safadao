@@ -4,7 +4,7 @@
   "description": "",
   "main": "game.js",
   "scripts": {
-    "start": "node src/game",
+    "start": "node --experimental-fetch src/game",
     "test": "jest"
   },
   "keywords": [],
@@ -12,5 +12,8 @@
   "license": "ISC",
   "devDependencies": {
     "jest": "^27.5.1"
+  },
+  "dependencies": {
+    "jsnetworkx": "^0.3.4"
   }
 }

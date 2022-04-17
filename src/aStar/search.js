@@ -1,5 +1,7 @@
 const { spawn } = require('child_process');
 
+const nx = require('jsnetworkx')
+
 const search = (...params) => {
   return new Promise((resolve, reject) => {
     const python = spawn('python', [__dirname + '/search.py', ...params ])

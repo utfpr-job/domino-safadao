@@ -1,0 +1,700 @@
+
+> domino-safado@1.0.0 start
+> node --experimental-fetch src/game
+
+empate
+aStarValue:  607.55
+greedyValue:  27.05
+
+> domino-safado@1.0.0 start
+> node --experimental-fetch src/game
+
+empate
+aStarValue:  0.30000000000000004
+greedyValue:  0
+
+> domino-safado@1.0.0 start
+> node --experimental-fetch src/game
+
+empate
+aStarValue:  8.5
+greedyValue:  1.8
+
+> domino-safado@1.0.0 start
+> node --experimental-fetch src/game
+
+empate
+aStarValue:  5
+greedyValue:  0.30000000000000004
+
+> domino-safado@1.0.0 start
+> node --experimental-fetch src/game
+
+empate
+aStarValue:  2
+greedyValue:  0
+
+> domino-safado@1.0.0 start
+> node --experimental-fetch src/game
+
+aStar wins
+aStarValue:  0
+greedyValue:  127.3
+
+> domino-safado@1.0.0 start
+> node --experimental-fetch src/game
+
+aStar wins
+aStarValue:  0
+greedyValue:  0.05
+
+> domino-safado@1.0.0 start
+> node --experimental-fetch src/game
+
+empate
+aStarValue:  2.1
+greedyValue:  3.4
+
+> domino-safado@1.0.0 start
+> node --experimental-fetch src/game
+
+empate
+aStarValue:  2
+greedyValue:  17.2
+
+> domino-safado@1.0.0 start
+> node --experimental-fetch src/game
+
+empate
+aStarValue:  144.54999999999998
+greedyValue:  2.75
+
+> domino-safado@1.0.0 start
+> node --experimental-fetch src/game
+
+greedy wins
+aStarValue:  274.35
+greedyValue:  0
+
+> domino-safado@1.0.0 start
+> node --experimental-fetch src/game
+
+empate
+aStarValue:  20
+greedyValue:  12.65
+
+> domino-safado@1.0.0 start
+> node --experimental-fetch src/game
+
+greedy wins
+aStarValue:  0.5
+greedyValue:  0
+
+> domino-safado@1.0.0 start
+> node --experimental-fetch src/game
+
+greedy wins
+aStarValue:  206.35000000000002
+greedyValue:  0
+
+> domino-safado@1.0.0 start
+> node --experimental-fetch src/game
+
+empate
+aStarValue:  245.5
+greedyValue:  3.1
+
+> domino-safado@1.0.0 start
+> node --experimental-fetch src/game
+
+greedy wins
+aStarValue:  356.45
+greedyValue:  0
+
+> domino-safado@1.0.0 start
+> node --experimental-fetch src/game
+
+empate
+aStarValue:  113.5
+greedyValue:  0
+
+> domino-safado@1.0.0 start
+> node --experimental-fetch src/game
+
+empate
+aStarValue:  20
+greedyValue:  4.75
+
+> domino-safado@1.0.0 start
+> node --experimental-fetch src/game
+
+empate
+aStarValue:  1.1
+greedyValue:  401.85
+
+> domino-safado@1.0.0 start
+> node --experimental-fetch src/game
+
+aStar wins
+aStarValue:  0
+greedyValue:  309
+
+> domino-safado@1.0.0 start
+> node --experimental-fetch src/game
+
+empate
+aStarValue:  15.45
+greedyValue:  22.55
+
+> domino-safado@1.0.0 start
+> node --experimental-fetch src/game
+
+empate
+aStarValue:  570.05
+greedyValue:  122.55
+
+> domino-safado@1.0.0 start
+> node --experimental-fetch src/game
+
+empate
+aStarValue:  205.85
+greedyValue:  0
+
+> domino-safado@1.0.0 start
+> node --experimental-fetch src/game
+
+aStar wins
+aStarValue:  0
+greedyValue:  624.1
+
+> domino-safado@1.0.0 start
+> node --experimental-fetch src/game
+
+aStar wins
+aStarValue:  0
+greedyValue:  67.35
+
+> domino-safado@1.0.0 start
+> node --experimental-fetch src/game
+
+aStar wins
+aStarValue:  0
+greedyValue:  1102.5
+
+> domino-safado@1.0.0 start
+> node --experimental-fetch src/game
+
+empate
+aStarValue:  5.3
+greedyValue:  0.1
+
+> domino-safado@1.0.0 start
+> node --experimental-fetch src/game
+
+empate
+aStarValue:  66.25
+greedyValue:  56.75
+
+> domino-safado@1.0.0 start
+> node --experimental-fetch src/game
+
+empate
+aStarValue:  361
+greedyValue:  621.5
+
+> domino-safado@1.0.0 start
+> node --experimental-fetch src/game
+
+empate
+aStarValue:  200
+greedyValue:  3.2
+
+> domino-safado@1.0.0 start
+> node --experimental-fetch src/game
+
+empate
+aStarValue:  25
+greedyValue:  0.25
+
+> domino-safado@1.0.0 start
+> node --experimental-fetch src/game
+
+greedy wins
+aStarValue:  122.5
+greedyValue:  0
+
+> domino-safado@1.0.0 start
+> node --experimental-fetch src/game
+
+aStar wins
+aStarValue:  0
+greedyValue:  277.75
+
+> domino-safado@1.0.0 start
+> node --experimental-fetch src/game
+
+empate
+aStarValue:  0.55
+greedyValue:  0.85
+
+> domino-safado@1.0.0 start
+> node --experimental-fetch src/game
+
+aStar wins
+aStarValue:  0
+greedyValue:  0.1
+
+> domino-safado@1.0.0 start
+> node --experimental-fetch src/game
+
+aStar wins
+aStarValue:  0
+greedyValue:  0
+
+> domino-safado@1.0.0 start
+> node --experimental-fetch src/game
+
+greedy wins
+aStarValue:  134
+greedyValue:  0
+
+> domino-safado@1.0.0 start
+> node --experimental-fetch src/game
+
+empate
+aStarValue:  124.6
+greedyValue:  261.9
+
+> domino-safado@1.0.0 start
+> node --experimental-fetch src/game
+
+aStar wins
+aStarValue:  0
+greedyValue:  22.15
+
+> domino-safado@1.0.0 start
+> node --experimental-fetch src/game
+
+empate
+aStarValue:  1.2
+greedyValue:  1.25
+
+> domino-safado@1.0.0 start
+> node --experimental-fetch src/game
+
+greedy wins
+aStarValue:  212
+greedyValue:  0
+
+> domino-safado@1.0.0 start
+> node --experimental-fetch src/game
+
+aStar wins
+aStarValue:  0
+greedyValue:  68.05
+
+> domino-safado@1.0.0 start
+> node --experimental-fetch src/game
+
+aStar wins
+aStarValue:  0
+greedyValue:  50.650000000000006
+
+> domino-safado@1.0.0 start
+> node --experimental-fetch src/game
+
+empate
+aStarValue:  226.6
+greedyValue:  802.6
+
+> domino-safado@1.0.0 start
+> node --experimental-fetch src/game
+
+greedy wins
+aStarValue:  572.6
+greedyValue:  0
+
+> domino-safado@1.0.0 start
+> node --experimental-fetch src/game
+
+empate
+aStarValue:  40.1
+greedyValue:  820.2
+
+> domino-safado@1.0.0 start
+> node --experimental-fetch src/game
+
+empate
+aStarValue:  151.3
+greedyValue:  252.1
+
+> domino-safado@1.0.0 start
+> node --experimental-fetch src/game
+
+empate
+aStarValue:  340.5
+greedyValue:  3.1999999999999997
+
+> domino-safado@1.0.0 start
+> node --experimental-fetch src/game
+
+empate
+aStarValue:  2.1
+greedyValue:  29.900000000000002
+
+> domino-safado@1.0.0 start
+> node --experimental-fetch src/game
+
+aStar wins
+aStarValue:  0
+greedyValue:  168
+
+> domino-safado@1.0.0 start
+> node --experimental-fetch src/game
+
+aStar wins
+aStarValue:  0
+greedyValue:  5.5
+
+> domino-safado@1.0.0 start
+> node --experimental-fetch src/game
+
+empate
+aStarValue:  106
+greedyValue:  5.65
+
+> domino-safado@1.0.0 start
+> node --experimental-fetch src/game
+
+aStar wins
+aStarValue:  0
+greedyValue:  10.399999999999999
+
+> domino-safado@1.0.0 start
+> node --experimental-fetch src/game
+
+empate
+aStarValue:  2.1500000000000004
+greedyValue:  2.0500000000000003
+
+> domino-safado@1.0.0 start
+> node --experimental-fetch src/game
+
+aStar wins
+aStarValue:  0
+greedyValue:  386.2
+
+> domino-safado@1.0.0 start
+> node --experimental-fetch src/game
+
+aStar wins
+aStarValue:  0
+greedyValue:  25.2
+
+> domino-safado@1.0.0 start
+> node --experimental-fetch src/game
+
+aStar wins
+aStarValue:  0
+greedyValue:  102.05
+
+> domino-safado@1.0.0 start
+> node --experimental-fetch src/game
+
+aStar wins
+aStarValue:  0
+greedyValue:  138.7
+
+> domino-safado@1.0.0 start
+> node --experimental-fetch src/game
+
+empate
+aStarValue:  428.00000000000006
+greedyValue:  227.2
+
+> domino-safado@1.0.0 start
+> node --experimental-fetch src/game
+
+empate
+aStarValue:  88
+greedyValue:  100
+
+> domino-safado@1.0.0 start
+> node --experimental-fetch src/game
+
+aStar wins
+aStarValue:  0
+greedyValue:  360
+
+> domino-safado@1.0.0 start
+> node --experimental-fetch src/game
+
+empate
+aStarValue:  20
+greedyValue:  200.1
+
+> domino-safado@1.0.0 start
+> node --experimental-fetch src/game
+
+greedy wins
+aStarValue:  365.25
+greedyValue:  0
+
+> domino-safado@1.0.0 start
+> node --experimental-fetch src/game
+
+empate
+aStarValue:  6
+greedyValue:  106.8
+
+> domino-safado@1.0.0 start
+> node --experimental-fetch src/game
+
+aStar wins
+aStarValue:  0
+greedyValue:  31.6
+
+> domino-safado@1.0.0 start
+> node --experimental-fetch src/game
+
+aStar wins
+aStarValue:  0
+greedyValue:  157
+
+> domino-safado@1.0.0 start
+> node --experimental-fetch src/game
+
+empate
+aStarValue:  6.25
+greedyValue:  40
+
+> domino-safado@1.0.0 start
+> node --experimental-fetch src/game
+
+greedy wins
+aStarValue:  1027.8
+greedyValue:  0
+
+> domino-safado@1.0.0 start
+> node --experimental-fetch src/game
+
+empate
+aStarValue:  23.25
+greedyValue:  393.35
+
+> domino-safado@1.0.0 start
+> node --experimental-fetch src/game
+
+empate
+aStarValue:  163.85
+greedyValue:  13.15
+
+> domino-safado@1.0.0 start
+> node --experimental-fetch src/game
+
+aStar wins
+aStarValue:  0
+greedyValue:  41.65
+
+> domino-safado@1.0.0 start
+> node --experimental-fetch src/game
+
+greedy wins
+aStarValue:  1388.1499999999994
+greedyValue:  0
+
+> domino-safado@1.0.0 start
+> node --experimental-fetch src/game
+
+empate
+aStarValue:  602.5
+greedyValue:  29.3
+
+> domino-safado@1.0.0 start
+> node --experimental-fetch src/game
+
+empate
+aStarValue:  402
+greedyValue:  57.2
+
+> domino-safado@1.0.0 start
+> node --experimental-fetch src/game
+
+empate
+aStarValue:  3
+greedyValue:  75.19999999999999
+
+> domino-safado@1.0.0 start
+> node --experimental-fetch src/game
+
+empate
+aStarValue:  32.65
+greedyValue:  304.5
+
+> domino-safado@1.0.0 start
+> node --experimental-fetch src/game
+
+greedy wins
+aStarValue:  223.79999999999998
+greedyValue:  0
+
+> domino-safado@1.0.0 start
+> node --experimental-fetch src/game
+
+aStar wins
+aStarValue:  0
+greedyValue:  8.2
+
+> domino-safado@1.0.0 start
+> node --experimental-fetch src/game
+
+empate
+aStarValue:  417.40000000000003
+greedyValue:  10
+
+> domino-safado@1.0.0 start
+> node --experimental-fetch src/game
+
+empate
+aStarValue:  51
+greedyValue:  21.200000000000003
+
+> domino-safado@1.0.0 start
+> node --experimental-fetch src/game
+
+greedy wins
+aStarValue:  224.6
+greedyValue:  0
+
+> domino-safado@1.0.0 start
+> node --experimental-fetch src/game
+
+aStar wins
+aStarValue:  0
+greedyValue:  38.1
+
+> domino-safado@1.0.0 start
+> node --experimental-fetch src/game
+
+empate
+aStarValue:  388
+greedyValue:  1301.2
+
+> domino-safado@1.0.0 start
+> node --experimental-fetch src/game
+
+greedy wins
+aStarValue:  9
+greedyValue:  0
+
+> domino-safado@1.0.0 start
+> node --experimental-fetch src/game
+
+empate
+aStarValue:  3.1
+greedyValue:  0.5
+
+> domino-safado@1.0.0 start
+> node --experimental-fetch src/game
+
+empate
+aStarValue:  58.1
+greedyValue:  258.15000000000003
+
+> domino-safado@1.0.0 start
+> node --experimental-fetch src/game
+
+empate
+aStarValue:  1140.8999999999999
+greedyValue:  28.95
+
+> domino-safado@1.0.0 start
+> node --experimental-fetch src/game
+
+greedy wins
+aStarValue:  14.75
+greedyValue:  0
+
+> domino-safado@1.0.0 start
+> node --experimental-fetch src/game
+
+empate
+aStarValue:  400
+greedyValue:  1
+
+> domino-safado@1.0.0 start
+> node --experimental-fetch src/game
+
+aStar wins
+aStarValue:  0
+greedyValue:  320.4
+
+> domino-safado@1.0.0 start
+> node --experimental-fetch src/game
+
+greedy wins
+aStarValue:  80.85
+greedyValue:  0
+
+> domino-safado@1.0.0 start
+> node --experimental-fetch src/game
+
+empate
+aStarValue:  112
+greedyValue:  19.650000000000002
+
+> domino-safado@1.0.0 start
+> node --experimental-fetch src/game
+
+empate
+aStarValue:  173.55
+greedyValue:  142.55
+
+> domino-safado@1.0.0 start
+> node --experimental-fetch src/game
+
+greedy wins
+aStarValue:  1057.95
+greedyValue:  0
+
+> domino-safado@1.0.0 start
+> node --experimental-fetch src/game
+
+empate
+aStarValue:  97.2
+greedyValue:  155
+
+> domino-safado@1.0.0 start
+> node --experimental-fetch src/game
+
+empate
+aStarValue:  2.05
+greedyValue:  5
+
+> domino-safado@1.0.0 start
+> node --experimental-fetch src/game
+
+empate
+aStarValue:  242.1
+greedyValue:  3.2
+
+> domino-safado@1.0.0 start
+> node --experimental-fetch src/game
+
+empate
+aStarValue:  3.4499999999999997
+greedyValue:  0
+
+> domino-safado@1.0.0 start
+> node --experimental-fetch src/game
+
+empate
+aStarValue:  44.7
+greedyValue:  0
+
+> domino-safado@1.0.0 start
+> node --experimental-fetch src/game
+
+empate
+aStarValue:  77.75
+greedyValue:  31.05

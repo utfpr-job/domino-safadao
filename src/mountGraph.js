@@ -30,14 +30,10 @@ const mountGraph = (searchFn = null) => (player1Pieces = [[-1, -1]]) => (player2
     })
   }
 
-  return valuesObjective.map((actualPiece) => {
-    return {
-      piece: [-1, actualPiece],
-      nextNode: mountNodeTree(actualPiece)(player1Pieces)(player2Pieces)
-    }
-  })
+  return valuesObjective.map((actualPiece) => mountNodeTree(actualPiece)(player1Pieces)(player2Pieces))
 }
 
 module.exports = {
-  mountGraph
-}
+  mountGraph,
+  isSameArray,
+};
